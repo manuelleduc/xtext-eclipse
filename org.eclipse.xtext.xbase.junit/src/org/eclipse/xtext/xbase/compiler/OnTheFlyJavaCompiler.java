@@ -1,13 +1,12 @@
-package org.eclipse.xtext.xbase.compiler;
-
 /*******************************************************************************
- * Copyright (c) 2011 itemis AG (http://www.itemis.eu) and others.
+ * Copyright (c) 2011, 2017 itemis AG (http://www.itemis.eu) and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
-import static com.google.common.collect.Lists.*;
+package org.eclipse.xtext.xbase.compiler;
+
 import static com.google.common.collect.Maps.*;
 import static java.util.Collections.*;
 
@@ -42,6 +41,7 @@ import org.eclipse.xtext.xbase.lib.Functions;
 import org.eclipse.xtext.xbase.lib.Functions.Function0;
 
 import com.google.inject.Inject;
+import static com.google.common.collect.Lists.*;
 
 /**
  * @author Sven Efftinge - Initial contribution and API
